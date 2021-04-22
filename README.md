@@ -2,7 +2,7 @@
 
 This is the second project of the HTML/CSS course from The Odin Project.\
 The task is to rebuild the sign up page being used by [Mint.com](www.mint.com).\
-The goal of the project is to practice making semantice code utilizing the different form elements
+The goal of the project is to practice making semantic code utilizing the different form elements.
 
 
 
