@@ -1,0 +1,23 @@
+
+/* variables */
+:root {
+  --black: #1b1b1b;
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Arial', sans-serif;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+
+
+/* styling */
+
+
+
