@@ -7,6 +7,7 @@
     <title>Project: HTML Forms</title>
   </head>
   <body>
+    <!-- Sign In Header -->
     <header class="header-sign-in">
       <div class="sign-in-container">
         <div>
@@ -14,28 +15,152 @@
           <a href="">I forgot my User ID or Password</a>
         </div>
         <button class="btn-sign-in">
-            <span class="ius-white-lock-img"></span>
-            Sign In
+          <span class="ius-white-lock-img"></span>
+          Sign In
         </button>
       </div>
     </header>
+    <!-- Logo and Links Section -->
     <section class="logo-links-container">
-        <header class="header-logo">
-        </header>
-        <div class="links">
-
-        </div>
+      <header class="header-logo">
+        <a class="intuit-logo" href="#" aria-label="intuit"></a>
+      </header>
+      <ul class="links">
+        <li>
+          <a
+            href="https://mint.intuit.com/"
+            target="_blank"
+            class="mint-icon"
+          ></a>
+          <a
+            href="https://mint.intuit.com/"
+            target="_blank"
+            class="mint-text"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://quickbooks.intuit.com/"
+            target="_blank"
+            class="quickbooks-icon"
+          ></a>
+          <a
+            href="https://quickbooks.intuit.com/"
+            target="_blank"
+            class="quickbooks-text"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://turbotax.intuit.com/"
+            target="_blank"
+            class="turbotax-icon"
+          ></a>
+          <a
+            href="https://turbotax.intuit.com/"
+            target="_blank"
+            class="turbotax-text"
+          ></a>
+        </li>
+      </ul>
     </section>
-    
+    <!-- Main Content -->
     <main class="content">
-        
-            <section>
-
-                <form>
-                    </form>
-            </section>
-        </main>
-        <footer>
-            </footer>
+      <section>
+        <!-- Form header -->
+        <header class="header-content">
+          <span>Create an Intuit account</span>
+          <span>
+            <div>One account for everything Intuit, including Mint.</div>
+            <a>Learn more</a>
+          </span>
+        </header>
+        <!-- Form -->
+        <form>
+          <fieldset>
+            <label for="email"> Email address </label>
+            <div class="input-container">
+              <input type="email" id="email" name="email" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <label for="phone"> Phone (recommended) </label>
+            <input type="tel" id="phone" name="phone" />
+            <div>Standard call, messaging or data rates may apply.</div>
+          </fieldset>
+          <fieldset>
+            <label for="password"> Password </label>
+            <div class="password-wrapper">
+              <input type="password" id="password" name="password" />
+            </div>
+          </fieldset>
+          <div class="submit-container">
+            <button class="btn-submit">
+              <span class="ius-white-lock-img"></span>
+              <span>Create Account</span>
+            </button>
+          </div>
+        </form>
+        <!-- Form Footer -->
+        <footer class="footer-form">
+          <span>
+            <i
+              >By clicking Create Account, you agree to our <br />
+              <a href="https://www.mint.com/terms" target="_blank">Terms</a> and
+              have read and acknowledge our
+              <a
+                >Global Privacy <br />
+                Statement</a
+              >.</i
+            >
+          </span>
+        </footer>
+      </section>
+      <!-- Captcha Section -->
+      <section class="captcha">
+        <span
+          >Invisible reCAPTCHA by Google
+          <a
+            href="https://www.google.com/intl/en/policies/privacy/"
+            target="_blank"
+            >Privacy Policy</a
+          >
+          and
+          <a
+            href="https://www.google.com/intl/en/policies/terms/"
+            target="_blank"
+            >Terms of Use</a
+          >.</span
+        >
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer-outer">
+      <ul>
+        <li>
+          <a href="https://www.intuit.com/legal/" target="_blank">Legal</a>
+        </li>
+        <li>
+          <a href="https://www.intuit.com/privacy/statement/" target="_blank"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a href="https://security.intuit.com/" target="_blank">Security</a>
+        </li>
+      </ul>
+      <span
+        >© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit
+        Inc.</span
+      >
+      <span
+        >Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.</span
+      >
+      <div class="privacy">
+        <a>Privacy Settings</a>
+      </div>
+    </footer>
   </body>
 </html>
